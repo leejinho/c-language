@@ -16,7 +16,7 @@ void main()
 	{
 	printf("면허 취소, 벌금 300만원 입니다.\n");
 	}
-	else if(0.19<=alcol<0.2)
+	else if(0.2<=alcol)
 	{
 	printf("면허 취소, 구속입니다.\n");
 	}
