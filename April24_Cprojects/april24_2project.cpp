@@ -9,7 +9,7 @@ scanf("%d", &value);
   {
  	printf("양수입니다.\n");
   }
-  else if(value<0);
+  else if(value<0)
   {
 	printf("음수입니다\n");
   }
