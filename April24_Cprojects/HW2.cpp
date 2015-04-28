@@ -1,10 +1,10 @@
 #include <stdio.h>
-void main()
+int main()
 {
  int y;
  printf("연도를 입력하세요\n");
  scanf("%d",&y);
-	if(y%4==0, y%100!==0)
+	if(y%4==0, y%100!=0)
  {
  	printf("%d는 윤년입니다.\n",y);
  }
