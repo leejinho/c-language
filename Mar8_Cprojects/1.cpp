@@ -2,6 +2,18 @@
 int main()
 {
 	int n, a, b, c, d=1, e, f, g;
+	while(1)
+	{
+		printf(" ----------------------------------------\n");
+	printf(" 1:	8-4 로 이동                           \n");
+	printf(" 2:	8-7(1) 로 이동                            \n");
+	printf(" 3:	8-7(2) 로 이동                          \n");
+	printf(" 4:	8-11(1) 로 이동                          \n");
+	printf(" 5:	8-11(2) 로 이동                          \n");
+	printf(" 6:	8-12(1) 로 이동                          \n");
+	printf(" 7:	8-12(2) 로 이동                          \n");
+	printf(" 8:	종료                            \n");
+	printf(" ----------------------------------------\n");
 	printf("실습 번호 입력후 Enter>>");
 	scanf("%d", &n);
 	switch(n)
@@ -56,5 +68,8 @@ int main()
 		scanf("%d", &g);
 	}
 	break;
- }
+	case 8:
+		return 1;
+		}
+	}
 }
