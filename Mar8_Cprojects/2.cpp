@@ -7,6 +7,7 @@ void main()
 	switch(n)
 	{
 	case 1:
+		printf("예제8-15\n");
 		printf("1부터 b까지의 합 계산\n");
 		printf("정수 b 입력 :");
 		scanf("%d", &b);
@@ -16,6 +17,7 @@ void main()
 		break;
 
 	case 2:
+		printf("예제8-16\n");
 		printf("1부터 d까지의 곱 계산\n");
 		printf("정수 d 입력 :");
 		scanf("%d", &d);
@@ -25,10 +27,11 @@ void main()
 		break;
 
 	case 3:
+		printf("예제8-20\n");
 		for(e=1;e<=3;e+=1)
 		{
 			for(f=1;f<=3;f+=1)
-				printf("A");
+			printf("A");
 			printf("\n");
 		}
 		break;
