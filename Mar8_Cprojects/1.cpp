@@ -14,25 +14,29 @@ int main()
 	case 2:
 		printf("예제8-7(1)\n");
 		for(b=1;b<=10;b+=1)
-		printf("%d\n", b);
+		printf("%d", b);
+		printf("\n");
 		break;
 	case 3: 
 		printf("예제8-7(2)\n");
 		for(c=10;c>=1;c-=1)
-		printf("%d\n", c);
+		printf("%d", c);
+		printf("\n");
 		break;
 	case 4: 
 		printf("예제8-11(1)\n");
 		while(d<=10)
 	{
-		printf("%d\n", d);
+		printf("%d", d);
+		printf("\n");
 		d+=2;
 	}
 		break;
 	case 5:
 		printf("예제8-11(2)\n");
 		for(e=1;e<=10;e+=2)
-		printf("%d\n", e);
+		printf("%d", e);
+		printf("\n");
 		break;
 	case 6: 
 		printf("예제8-12(1)\n");
