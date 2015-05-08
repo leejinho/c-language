@@ -1,9 +1,10 @@
 #include <stdio.h>
 void main()
 {
-	int P, a, b, c, d, e, f, sum;
+	int n, a, b, c, d, e, f, sum;
 	printf("어떤실습을 하시겠습니까?");
-	switch(P)
+	scanf("%d", &n)
+	switch(n)
 	{
 	case 1:
 		printf("1부터 b까지의 합 계산\n");
